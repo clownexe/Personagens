@@ -15,10 +15,10 @@
     </head>
     <body>
         <?php require_once 'menu.php'; ?>
-        <br>
+        
 
 <h1 id='dndh1'>Cadastre seu personagem de D&D!</h1>
-<img src="https://i.pinimg.com/originals/3f/6b/79/3f6b79503b98f7d85448b904382dadd2.jpg" alt="dnd" width="500">
+<img src="https://i.pinimg.com/originals/a0/c8/1d/a0c81d387bb9f52712ddd8038e56d907.jpg" alt="dnd" width="450" height="500px">
 <hr>
         
 <form id='formPersonagens' method="POST" action="salvarPersonagem.php?<?php echo $action; ?>">
@@ -28,12 +28,12 @@
             <label for="txtClasse">Classe:</label>
             <input type="text" name="txtClasse" required />
             <br>
-            <br>
             <input type="submit" value="Enviar"/>
             <input type="reset" value="Limpar" />
         </form>
+<br>
         <hr>
-        
+        <br>
         <table id="tbl_personagens">
             <tr>
                 <th>Nome</th>
